@@ -1,1 +1,14 @@
+fmt.Print("Hello, ")
+    fmt.Print(name)
+    fmt.Print("\n")
 
+    fmt.Println("Hello,", name) - //переносcnhjrb
+    fmt.Println("Your age is", age) //
+
+    fmt.Printf("Hello, %s! You are %d years old.\n", name, age) //добавить scanf(%s,%s,&name,&age)
+%s - строка.
+%d - целое число.
+%f - число с плавающей точкой.
+%t - булево значение.
+%v - значение в стандартном формате (универсальный спецификатор).
+%+v - значение с подробным выводом (например, с полями структуры).
