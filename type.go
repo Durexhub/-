@@ -11,5 +11,7 @@ func main() {
 	p := Age{"l", 2}      // таким образом сделали в 2 шага но проще запомнить первый
 	a := &p
 	fmt.Print(a.age, ph.name)
+var keyLek Age // присвоили тип переменной который в структуре(Type)
+	fmt.Print(keyLek)
 
 }
