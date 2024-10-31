@@ -55,3 +55,6 @@ func squarePointer(num *int) {
 func hasWallet(money *int) bool {
 	return money != nil
 }
+a := 14
+*p = a
+func(&p)
